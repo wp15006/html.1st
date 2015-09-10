@@ -10,7 +10,6 @@ h2{
 	font-size: 185%;
 	border-left: 15px solid #668800;
 	padding-left: 10px;
-
 }
 
 address{
@@ -72,7 +71,7 @@ address{
 	clear: left;/*回り込み回避*/
 }
 
-ul{
+/*ul{
 	background: #88aa00;
 	padding: 10px 20px;
 }
@@ -94,4 +93,42 @@ li>a:visited{
 li>a:hover{
 	color: #000;
 	text-decoration: none;
+}*/
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0 0 5px;
+	font-size: 12px;
+	overflow: hidden;
+	background: #88aa00;
+}
+
+li{
+	float: left;
+	margin-right: 15px;
+	width: 112px;
+	text-align: center;
+}
+
+
+li a{
+	font-size: 15px;
+	display:  block;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	border: 5px dotted transparent;
+	text-decoration: none;
+}
+
+li>a:link{
+	color: #fff;
+}
+
+li>a:visited{
+	color: #ee0;
+}
+
+li a:hover{
+	border-color: green;
 }
