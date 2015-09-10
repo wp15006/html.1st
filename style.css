@@ -1,3 +1,5 @@
+
+
 body{
 	color: #535353;
 	font-size: 13px;
@@ -45,4 +47,51 @@ td{
 	border: 1px solid #999999;
 	padding: 10px;
 	background: #eeeeee;
+}
+
+#wrap{
+	width: 770px;
+	margin: 0 auto; /*全体中央揃え*/
+	text-align: left; /*文字左寄せ*/
+}
+
+
+/*ここまで*/
+
+
+.itemphoto{
+	float: left;
+	margin: 20px 0 50px;
+}
+
+h3{
+	clear: left;/*回り込み回避*/
+}
+
+address{
+	clear: left;/*回り込み回避*/
+}
+
+ul{
+	background: #88aa00;
+	padding: 10px 20px;
+}
+
+li{
+	list-style-type: none;
+	display: inline;
+	padding-right: 20px;
+}
+
+li>a:link{
+	color: #fff;
+}
+
+li>a:visited{
+	color: #ee0;
+}
+
+li>a:hover{
+	color: #000;
+	text-decoration: none;
 }
